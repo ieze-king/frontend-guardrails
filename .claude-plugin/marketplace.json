@@ -1,0 +1,19 @@
+{
+  "name": "frontend-guardrails",
+  "description": "Marketplace distributing the Frontend Guardrails skill plugin.",
+  "owner": {
+    "name": "ieze-king",
+    "url": "https://github.com/ieze-king"
+  },
+  "metadata": {
+    "description": "Professional frontend engineering standards as an installable Claude skill plugin.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "frontend-guardrails",
+      "source": "./",
+      "description": "Professional frontend standards — consistency, reusability, security, accessibility, performance, and code correctness — applied automatically. Framework-agnostic. Bundles Context7."
+    }
+  ]
+}

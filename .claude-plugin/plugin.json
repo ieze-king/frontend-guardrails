@@ -1,0 +1,21 @@
+{
+  "name": "frontend-guardrails",
+  "version": "0.1.0",
+  "description": "Professional frontend standards for building, scaffolding, extending, or reviewing any UI or frontend project. Keeps generated code consistent, reusable, secure, and production-quality. Bundles the Context7 MCP for current, version-accurate library docs.",
+  "author": "ieze-king",
+  "homepage": "https://github.com/ieze-king/frontend-guardrails",
+  "repository": "https://github.com/ieze-king/frontend-guardrails",
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "standards",
+    "guardrails",
+    "react",
+    "vue",
+    "angular",
+    "accessibility",
+    "security",
+    "performance",
+    "skill"
+  ]
+}
