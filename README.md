@@ -121,6 +121,25 @@ Before publishing your own copy, validate the manifests from the repo root with 
 
 ---
 
+## Updating
+
+Updates are **pull-based** — installing a newer version is something you do, not something that happens automatically. Claude Code does not notify you in-app when a new version is published.
+
+To get the latest version (Claude Code):
+
+```
+/plugin marketplace update frontend-guardrails
+/plugin install frontend-guardrails@frontend-guardrails
+```
+
+Then run `/reload-plugins` (or restart Claude Code) to apply it.
+
+To be told when there's a new version, open this repository on GitHub and choose **Watch → Custom → Releases**. GitHub will email you whenever a new release is published — that's the closest thing to an update notification. Releases and their changes are listed in [`CHANGELOG.md`](./CHANGELOG.md).
+
+Claude.ai upload users: re-download the latest `skills/frontend-guardrails` folder, re-zip it, and re-upload it under Customize → Skills.
+
+---
+
 ## Repository structure
 
 ```
