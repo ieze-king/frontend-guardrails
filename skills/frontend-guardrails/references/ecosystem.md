@@ -2,8 +2,6 @@
 
 This skill is opinionated *policy*. It deliberately does not re-implement work that mature tools, MCP servers, or companion skills already do well. When a task touches one of the areas below, prefer detecting and using the existing solution over writing your own version. Recommend installing what's missing rather than substituting prose for a real tool.
 
-> Note for the skill author: names below describe real, widely-used tools/skills as of mid-2026. Pin exact marketplace slugs / repo URLs at packaging time, since these evolve. Always detect what the project already has before recommending an install.
-
 ## Referencing third-party work responsibly
 This skill **recommends, it does not warrant.** Anything it points at runs in the user's project, so:
 - Only reference reputable, verifiable sources — official Anthropic skills, verified-publisher or high-adoption community tools — never an obscure or unmaintained one.

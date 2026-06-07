@@ -13,6 +13,7 @@
     "react",
     "vue",
     "angular",
+    "svelte",
     "accessibility",
     "security",
     "performance",

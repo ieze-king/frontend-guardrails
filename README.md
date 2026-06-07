@@ -117,7 +117,11 @@ Or, for personal use, copy the `skills/frontend-guardrails` folder into `~/.clau
 
 Once installed, it activates automatically on frontend tasks. You can also mention it by name to nudge it explicitly. Installing via the plugin route also sets up the bundled **Context7** MCP, which feeds Claude current, version-accurate library documentation (no API key needed for basic use; add a free key from context7.com for higher rate limits).
 
-Before publishing your own copy, validate the manifests from the repo root with `claude plugin validate .`
+Before publishing your own copy, validate the manifests by running the following from the repository root directory:
+
+```
+claude plugin validate .
+```
 
 ---
 
