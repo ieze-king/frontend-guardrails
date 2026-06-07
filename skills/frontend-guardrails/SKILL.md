@@ -16,7 +16,8 @@ Without explicit standards, frontend code drifts: the same logic in three places
    - React / Next.js → `references/react.md`
    - Vue / Nuxt → `references/vue.md`
    - Angular → `references/angular.md`
-   - Anything else (Svelte, plain JS, etc.) → apply the principles below; the framework files show how the same principles map to syntax.
+   - Svelte / SvelteKit → `references/svelte.md`
+   - Anything else (plain JS, SolidJS, etc.) → apply the principles below; the framework files show how the same principles map to syntax.
 3. **Apply the universal principles** (below) to every task.
 4. **Read the topic reference when the task touches that area** — these hold the deep detail:
    - Security-sensitive work (auth, user data, env vars, tokens) → `references/security.md`

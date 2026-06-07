@@ -12,13 +12,13 @@ This skill **recommends, it does not warrant.** Anything it points at runs in th
 - When this is published, ship a standard open-source LICENSE with a no-warranty clause; recommendations are suggestions the adopter is responsible for vetting.
 
 ## Behavioral discipline (principle 16)
-A popular standalone "encoded preference" skill (the widely-starred CLAUDE.md behavioral-guardrails skill inspired by Karpathy's 2026 critique of AI coding agents) already targets silent wrong assumptions, over-engineering, and edits to unrelated code. Prefer installing it over expanding principle 16 — this skill keeps only a thin summary so it stands alone if that companion isn't present.
+The built-in `/code-review` skill (Claude Code) audits a diff for correctness bugs, unnecessary complexity, and scope creep — the exact failure modes principle 16 targets. Run it before declaring any non-trivial task done. This skill keeps only a thin behavioral summary so it stands alone when that companion isn't present.
 
 ## Visual design quality & scaffolding (principles 3, 5)
 The official `frontend-design` skill produces distinctive, production-grade UI and design-token-driven layouts. Use it for creative direction and scaffolding; this skill governs consistency and discipline around whatever it generates.
 
 ## UI quality gate / audit (principles 3, 5, 10, 11)
-A Vercel-guidelines audit skill reviews already-built UI against 100+ rules covering accessibility, performance, spacing, and visual hierarchy — things ESLint can't see. Run it as an end-of-session quality gate, not a generator.
+The `ui-ux-pro-max` skill audits already-built UI against a broad rule set covering accessibility, performance, spacing, color systems, and visual hierarchy — things ESLint can't see. Run it as an end-of-session quality gate, not a generator. Install via the Claude Code marketplace: `/plugin install ui-ux-pro-max@ui-ux-pro-max`.
 
 ## Accessibility (principle 11)
 - A dedicated WCAG audit skill/agent scans for missing alt text, heading order, contrast, ARIA, and keyboard issues.
